@@ -1,6 +1,6 @@
 <?php
 include "db_connect.php";
-$roomname = "ARYAN";
+$roomname = "aryan";
 ?>
 
 <!------ Include the above in your HEAD tag ---------->
@@ -17,12 +17,12 @@ $roomname = "ARYAN";
         <link rel="stylesheet" href="a.css">
         <script type="text/javascript" src="a.js"></script>
 	</head>
-	<!--Coded With Love By Mutiullah Samim-->
 	<body>
 		<div class="container-fluid h-100">
 			<div class="row justify-content-center h-100">
 				<div class="col-md-4 col-xl-3 chat"><div class="card mb-sm-3 mb-md-0 contacts_card">
 					<div class="card-header">
+					<div style="color:white;">#RoomName</div>
 						<div class="input-group">
 							<input type="text" placeholder="Search..." name="" class="form-control search">
 							<div class="input-group-prepend">
@@ -110,7 +110,7 @@ $roomname = "ARYAN";
 								</div>
 								<div class="video_cam">
 									<span><i class="fas fa-video"></i></span>
-									<span><i class="fas fa-phone"></i></span>
+									<!--<span><i class="fas fa-phone"></i></span>-->
 								</div>
 							</div>
 							<span id="action_menu_btn"><i class="fas fa-ellipsis-v"></i></span>
@@ -129,7 +129,7 @@ $roomname = "ARYAN";
 									<img src="https://static.turbosquid.com/Preview/001292/481/WV/_D.jpg" class="rounded-circle user_img_msg">
 								</div>
 								<div class="msg_cotainer">
-									Hi, how are you samim?
+									Hi'I am khalid.
 									<span class="msg_time">8:40 AM, Today</span>
 								</div>
 							</div>
